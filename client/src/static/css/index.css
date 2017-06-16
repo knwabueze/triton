@@ -1,0 +1,85 @@
+@import url('./fira_code.css');
+
+:root {
+    --primary-color: #F95759;
+    --secondary-color: #E03E40;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.Index-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    margin: 0 20%;
+    width: 60vw;
+}
+
+.title {
+    font-family: 'Fira Code', sans-serif;
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.subtitle {
+    font-family: 'Fira Code', sans-serif;
+    margin-top: 8.2px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.cta {
+    border: none;
+    font-family: 'Fira Code', sans-serif;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    padding: 19px 89.8px;
+    border-radius: 63px;
+}
+
+.cta:hover {
+    background-color: var(--secondary-color);
+}
+
+.center {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20.6px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    text-align: center;
+    margin-top: 43px;
+    align-content: center;
+    justify-content: center;
+}
+
+.bottom p {
+    font-family: 'Fira Code', sans-serif;
+    font-size: 10px;
+    width: 278.4px;
+}
+
+.bottom div:first-child {
+    margin-right: 288px;
+}
+
+.h2-title {
+    font-family: "Fira Code", sans-serif;
+}

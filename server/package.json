@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The server-side implementation of knwabueze/triton.",
+  "main": "server.js",
+  "repository": "http://github.com/knwabueze/triton",
+  "author": "Kosi Nwabueze",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.4",
+    "morgan": "^1.8.2"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./server.js"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "nodemon": "^1.11.0"
+  }
+}

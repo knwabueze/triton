@@ -1,0 +1,4 @@
+# server + client
+yarn.lock
+.env
+node_modules/

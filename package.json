@@ -1,0 +1,8 @@
+{
+  "name": "triton2",
+  "version": "1.0.0",
+  "description": "A node project that exposes Intel Codenames as an API, built with React + Express.",
+  "private": true,
+  "repository": "https://github.com/knwabueze/triton",
+  "author": "Kosi Nwabueze"
+}
