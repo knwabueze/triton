@@ -1,0 +1,94 @@
+@import url('./fira_code.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --primary-color: #F95759;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.codenames__container {    
+    margin-top: 73px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.codenames__search {
+    transition: all 0.4s cubic-bezier(.64,.09,.08,1);
+    width: 50%;
+    margin-left: 24.7%;
+    border: none;
+    border-bottom: solid 1px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.codenames__search::-webkit-input-placeholder {
+    transition: all 0.5s cubic-bezier(.64,.09,.08,1);
+}
+
+.codenames__search:focus::-webkit-input-placeholder {
+    transform: translateY(-20px);
+    color: var(--primary-color);
+    visibility: visible !important;
+}
+
+.codenames__search:focus {
+    outline: none;    
+    border-bottom-color: var(--primary-color)
+}
+
+.codenames__search__select__container {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.codenames__search__select {
+    transition: all 0.5s ease-in-out;
+    border: none;
+    border-bottom: solid 1px;
+}
+
+.codenames__search__select:focus {
+    outline: none;
+    border-bottom-color: var(--primary-color);
+}
+
+.codenames__search__select__label {
+    color: gray;
+    margin-right: 2%;
+    font-size: 12px;
+}
+
+.codenames__search__form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.codenames__title {
+    text-align: center;
+    color: var(--primary-color);
+    font-family: 'Fira Code', sans-serif;
+    font-weight: 500;
+}
+
+.codenames__editor {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    overflow-x: visible;
+    white-space: pre-wrap;
+    word-wrap: break-word; 
+    font-family: 'Fira Code', sans-serif;
+}
